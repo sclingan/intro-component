@@ -39,4 +39,18 @@ p, h1, h2, h3, h4, h5, h6 {
 /*  9. Create a root stacking context */
 #root, #__next {
   isolation: isolate;
+}
+
+body {
+  background-image: url("../public/images/bg-intro-mobile.png");
+  background-color: hsl(0, 100%, 74%);
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+header {
+  color: hsl(246, 25%, 77%);
+  text-align: center;
+  padding: 2rem;
 }/*# sourceMappingURL=App.css.map */

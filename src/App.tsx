@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Button from './button'
 import Form from './form'
+import bgMobile from '../public/images/bg-intro-mobile.png'
+import bgDesktop from '../public/images/bg-intro-desktop.png'
 
 function App() {
 
@@ -14,8 +16,10 @@ function App() {
         but understanding how developers think is invaluable. 
         </p>
      </header>
+     <main>
      <Button />
      <Form />
+     </main>
     </div>
   )
 }

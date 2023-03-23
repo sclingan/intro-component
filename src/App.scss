@@ -11,3 +11,17 @@ $fw-400: 400;
 $fw-500: 500;
 $fw-600: 600;
 $fw-700: 700;
+
+body {
+    background-image: url('../public/images/bg-intro-mobile.png');
+    background-color: $primary-red;
+    font-family: $ff;
+    font-size: $font-size;
+    font-weight: $fw-400;
+}
+
+header {
+    color: $neutral-gray-blue;
+    text-align: center;
+    padding: 2rem;
+}

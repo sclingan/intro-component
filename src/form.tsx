@@ -14,7 +14,6 @@ function Form() {
 
           {/* change this to a submit button? */}
           <a>Claim your free trial</a>
-  
           <p>By clicking the button, you are agreeing to our Terms and Services</p>
         </form>
       </div>
