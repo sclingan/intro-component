@@ -1,26 +1,21 @@
 import { useState } from 'react'
 import './App.css'
+import Button from './button'
+import Form from './form'
 
 function App() {
 
   return (
     <div className="App">
-     Learn to code by watching others
-
-     See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-     but understanding how developers think is invaluable. 
-
-     Try it free 7 days then $20/mo. thereafter
-
-     First Name 
-     Last Name 
-     Email Address
-     Password
-
-     Claim your free trial 
-
-     By clicking the button, you are agreeing to our Terms and Services
-
+      <header>
+        {/* Hidden h1 for screen readers */}
+        <h2>Learn to code by watching others</h2>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+        </p>
+     </header>
+     <Button />
+     <Form />
     </div>
   )
 }
