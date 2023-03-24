@@ -41,16 +41,71 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* TODO:
+    make fonts responsive
+*/
 body {
   background-image: url("../public/images/bg-intro-mobile.png");
   background-color: hsl(0, 100%, 74%);
   font-family: "Poppins";
   font-size: 1rem;
   font-weight: 400;
+  padding-inline: 2rem;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 2rem;
 }
 
 header {
   color: hsl(246, 25%, 77%);
   text-align: center;
-  padding: 2rem;
+}
+
+h2 {
+  padding-top: 3.8rem;
+}
+
+p {
+  padding-block: 1.5rem;
+}
+
+.button {
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  box-shadow: 0 0.5rem 0.3rem red;
+  margin-block: 2rem;
+}
+
+.btn_trial {
+  text-decoration: none;
+  color: hsl(246, 25%, 77%);
+  cursor: pointer;
+}
+
+form {
+  padding: 1rem 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 0.3rem red;
+}
+
+input {
+  padding: 1rem 0.5rem;
+  min-width: 100%;
+  border: 0.1px solid grey;
+  border-radius: 0.4rem;
+  margin-block: 0.5rem;
+}
+
+::-moz-placeholder {
+  font-weight: 600;
+}
+
+::placeholder {
+  font-weight: 600;
 }/*# sourceMappingURL=App.css.map */
