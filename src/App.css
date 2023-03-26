@@ -52,6 +52,7 @@ body {
   font-weight: 400;
   padding-inline: 1.8rem;
   min-height: 100vh;
+  padding-top: 2rem;
 }
 
 main {
@@ -59,12 +60,14 @@ main {
 }
 
 header {
-  color: hsl(246, 25%, 77%);
+  color: hsl(0, 14%, 95%);
   text-align: center;
 }
 
 h2 {
   padding-top: 3.8rem;
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 
 p {
@@ -73,18 +76,27 @@ p {
 
 .button {
   text-align: center;
-  color: hsl(246, 25%, 77%);
+  color: hsl(0, 14%, 95%);
   background-color: hsl(248, 32%, 49%);
   border-radius: 0.5rem;
   padding: 1rem 3rem;
   box-shadow: 0 0.5rem 0.3rem red;
   margin-block: 2rem;
+  cursor: pointer;
 }
 
 .btn_trial {
   text-decoration: none;
   color: hsl(246, 25%, 77%);
-  cursor: pointer;
+}
+
+.btn_trial_try {
+  font-weight: 700;
+  color: hsl(0, 14%, 95%);
+}
+
+.button:hover {
+  background-color: hsl(249, 58%, 55%);
 }
 
 form {
@@ -97,7 +109,7 @@ form {
 input {
   padding: 1rem 0.5rem;
   min-width: 100%;
-  border: 0.1px solid grey;
+  border: 0.1px solid lightgray;
   border-radius: 0.4rem;
   margin-block: 0.5rem;
 }
@@ -110,9 +122,9 @@ input {
   font-weight: 600;
 }
 
-button {
+.submit {
   margin-block: 1rem;
-  color: hsl(246, 25%, 77%);
+  color: hsl(0, 14%, 95%);
   background-color: hsl(154, 59%, 51%);
   border: none;
   min-width: 100%;
@@ -124,14 +136,26 @@ button {
   cursor: pointer;
 }
 
+.submit:hover {
+  background-color: hsl(154, 98%, 57%);
+}
+
 .p_terms {
   text-align: center;
   color: hsl(246, 25%, 77%);
   padding-inline: 0.8rem;
   font-size: 0.7rem;
+  padding-top: 0.2rem;
 }
 
 .span_terms {
   color: hsl(0, 100%, 74%);
   font-weight: 600;
+}
+
+@media (min-width: 50rem) {
+  .App {
+    display: flex;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=App.css.map */

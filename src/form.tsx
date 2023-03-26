@@ -14,7 +14,7 @@ function Form() {
 
           {/* change this to a submit button? */}
           {/* <a>Claim your free trial</a> */}
-          <button type='submit'>Claim your free trial</button>
+          <button className='submit' type='submit'>Claim your free trial</button>
           <p className="p_terms">By clicking the button, you are agreeing to our <span className="span_terms">Terms and Services</span></p>
         </form>
       </div>

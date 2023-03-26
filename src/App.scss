@@ -5,6 +5,7 @@ $primary-green: hsl(154, 59%, 51%);
 $accent-blue: hsl(248, 32%, 49%);
 $neutral-blue: hsl(249, 10%, 26%);
 $neutral-gray-blue: hsl(246, 25%, 77%);
+$neutral-white: hsl(0, 14%, 95%);
 $font-size: 1rem;
 $ff: 'Poppins';
 $fw-400: 400;
@@ -25,6 +26,7 @@ body {
     font-weight: $fw-400;
     padding-inline: 1.8rem;
     min-height: 100vh;
+    padding-top: 2rem;
 }
 
 main {
@@ -32,12 +34,14 @@ main {
 }
 
 header {
-    color: $neutral-gray-blue;
+    color: $neutral-white;
     text-align: center;
 }
 
 h2 {
     padding-top: 3.8rem;
+    font-weight: $fw-700;
+    font-size: 1.8rem;
 }
 
 p {
@@ -46,18 +50,27 @@ p {
 
 .button {
     text-align: center;
-    color: $neutral-gray-blue;
+    color: $neutral-white;
     background-color: $accent-blue;
     border-radius: 0.5rem;
     padding: 1rem 3rem;
     box-shadow: 0 0.5rem 0.3rem red;
     margin-block: 2rem;
+    cursor: pointer;
 }
 
 .btn_trial {
     text-decoration: none;
     color: $neutral-gray-blue;
-    cursor: pointer;
+}
+
+.btn_trial_try {
+    font-weight: $fw-700;
+    color: $neutral-white;
+}
+
+.button:hover {
+    background-color: hsl(249, 58%, 55%);;
 }
 
 form {
@@ -70,7 +83,7 @@ form {
 input {
     padding: 1rem 0.5rem;
     min-width: 100%;
-    border: 0.1px solid grey;
+    border: 0.1px solid lightgray;
     border-radius: 0.4rem;
     margin-block: 0.5rem;
 }
@@ -80,9 +93,9 @@ input {
 
 }
 
-button {
+.submit {
     margin-block: 1rem;
-    color: $neutral-gray-blue;
+    color: $neutral-white;
     background-color: $primary-green;
     border: none;
     min-width: 100%;
@@ -94,14 +107,27 @@ button {
     cursor: pointer;
 }
 
+.submit:hover {
+    background-color: hsl(154, 98%, 57%);
+}
+
 .p_terms {
     text-align: center;
     color: $neutral-gray-blue;
     padding-inline: 0.8rem;
     font-size: 0.7rem;
+    padding-top: 0.2rem;
 }
 
 .span_terms {
     color: $primary-red;
     font-weight: $fw-600;
+}
+
+@media (min-width: 50rem) {
+
+    .App {
+        display: flex;
+        flex-direction: row;
+    }
 }
