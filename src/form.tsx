@@ -4,13 +4,13 @@ function Form() {
       <div className="form">
         <form>
           {/* <label htmlFor='firstName'>First Name</label> */}
-          <input id='firstName' placeholder="First Name"></input>
+          <input id='firstName' type='text' placeholder="First Name"></input>
           {/* <label htmlFor='lastName'>Last Name</label> */}
-          <input id='lastName' placeholder="Last Name"></input>
+          <input id='lastName' type='text' placeholder="Last Name"></input>
           {/* <label htmlFor='Email'>Email Address</label> */}
-          <input id='Email' placeholder="Email Address"></input>
+          <input id='Email' type='email' placeholder="Email Address" required></input>
           {/* <label htmlFor='Password'>Password</label> */}
-          <input id='Password' placeholder="Password"></input>
+          <input id='Password' type='password' placeholder="Password" required></input>
 
           {/* change this to a submit button? */}
           {/* <a>Claim your free trial</a> */}

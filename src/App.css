@@ -43,6 +43,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* TODO:
     make fonts responsive
+    fix button/div issue, can't have active states on a div
 */
 body {
   background-image: url("../public/images/bg-intro-mobile.png");
@@ -67,7 +68,7 @@ header {
 h2 {
   padding-top: 3.8rem;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 p {
@@ -112,6 +113,8 @@ input {
   border: 0.1px solid lightgray;
   border-radius: 0.4rem;
   margin-block: 0.5rem;
+  color: hsl(0, 100%, 74%);
+  font-weight: 500;
 }
 
 ::-moz-placeholder {
@@ -153,9 +156,21 @@ input {
   font-weight: 600;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 40rem) {
+  body {
+    padding-top: 6rem;
+  }
   .App {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  header {
+    max-width: 38rem;
+  }
+  h2 {
+    font-size: 3rem;
   }
 }/*# sourceMappingURL=App.css.map */
