@@ -23,7 +23,7 @@ body {
     font-family: $ff;
     font-size: $font-size;
     font-weight: $fw-400;
-    padding-inline: 2rem;
+    padding-inline: 1.8rem;
     min-height: 100vh;
 }
 
@@ -78,4 +78,30 @@ input {
 ::placeholder {
     font-weight: $fw-600;
 
+}
+
+button {
+    margin-block: 1rem;
+    color: $neutral-gray-blue;
+    background-color: $primary-green;
+    border: none;
+    min-width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-weight: $fw-600;
+    text-transform: uppercase;
+    box-shadow: 0 0.2rem rgb(2, 201, 2);
+    cursor: pointer;
+}
+
+.p_terms {
+    text-align: center;
+    color: $neutral-gray-blue;
+    padding-inline: 0.8rem;
+    font-size: 0.7rem;
+}
+
+.span_terms {
+    color: $primary-red;
+    font-weight: $fw-600;
 }

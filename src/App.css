@@ -50,7 +50,7 @@ body {
   font-family: "Poppins";
   font-size: 1rem;
   font-weight: 400;
-  padding-inline: 2rem;
+  padding-inline: 1.8rem;
   min-height: 100vh;
 }
 
@@ -107,5 +107,31 @@ input {
 }
 
 ::placeholder {
+  font-weight: 600;
+}
+
+button {
+  margin-block: 1rem;
+  color: hsl(246, 25%, 77%);
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  min-width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 0 0.2rem rgb(2, 201, 2);
+  cursor: pointer;
+}
+
+.p_terms {
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+  padding-inline: 0.8rem;
+  font-size: 0.7rem;
+}
+
+.span_terms {
+  color: hsl(0, 100%, 74%);
   font-weight: 600;
 }/*# sourceMappingURL=App.css.map */
