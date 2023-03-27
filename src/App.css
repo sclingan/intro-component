@@ -42,7 +42,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* TODO:
-    make fonts responsive
     fix button/div issue, can't have active states on a div
 */
 body {
@@ -117,6 +116,15 @@ input {
   font-weight: 500;
 }
 
+.sr-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  width: 1px;
+}
+
 ::-moz-placeholder {
   font-weight: 600;
 }
@@ -166,6 +174,7 @@ input {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    font-size: 1.5rem;
   }
   header {
     max-width: 38rem;

@@ -15,7 +15,6 @@ $fw-700: 700;
 
 
 /* TODO:
-    make fonts responsive
     fix button/div issue, can't have active states on a div
 */
 
@@ -91,6 +90,15 @@ input {
     font-weight: $fw-500;
 }
 
+.sr-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    width: 1px;
+}
+
 ::placeholder {
     font-weight: $fw-600;
 
@@ -139,6 +147,7 @@ input {
         justify-content: center;
         align-items: center;
         gap: 2rem;
+        font-size: 1.5rem;
     }
 
     header {
