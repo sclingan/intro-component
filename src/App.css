@@ -43,7 +43,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* TODO:
     fix button/div issue, can't have active states on a div
-    fix icon error placement, not responsive
 */
 body {
   background-image: url("../public/images/bg-intro-mobile.png");
@@ -147,8 +146,8 @@ input {
 
 .error_icon {
   position: absolute;
-  top: 2.5rem;
-  left: 31rem;
+  top: 2.2rem;
+  right: 1rem;
 }
 
 .submit {
@@ -199,5 +198,8 @@ input {
   }
   h2 {
     font-size: 3rem;
+  }
+  .error_icon {
+    top: 2.5rem;
   }
 }/*# sourceMappingURL=App.css.map */
