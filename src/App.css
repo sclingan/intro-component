@@ -43,6 +43,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* TODO:
     fix button/div issue, can't have active states on a div
+    change input color, change input color on error
 */
 body {
   background-image: url("../public/images/bg-intro-mobile.png");
@@ -112,7 +113,7 @@ input {
   border: 0.1px solid lightgray;
   border-radius: 0.4rem;
   margin-block: 1rem;
-  color: hsl(0, 100%, 74%);
+  color: hsl(249, 10%, 26%);
   font-weight: 500;
 }
 
@@ -183,7 +184,8 @@ input {
 
 @media (min-width: 40rem) {
   body {
-    padding-top: 6rem;
+    background-image: url("../public/images/bg-intro-desktop.png");
+    padding-top: 5rem;
   }
   .App {
     display: flex;
