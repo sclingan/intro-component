@@ -43,7 +43,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* TODO:
     fix button/div issue, can't have active states on a div
-    change input color, change input color on error
 */
 body {
   background-image: url("../public/images/bg-intro-mobile.png");
@@ -89,6 +88,7 @@ p {
 .btn_trial {
   text-decoration: none;
   color: hsl(246, 25%, 77%);
+  text-align: center;
 }
 
 .btn_trial_try {

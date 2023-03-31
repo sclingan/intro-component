@@ -1,4 +1,5 @@
 import trialSubmit from './submit'
+import validateForm from './submit'
 import error from '../public/images/icon-error.svg'
 function Form() {
  
@@ -29,7 +30,7 @@ function Form() {
           <img src={error} alt="" id='img_password' className='sr-hidden'></img>
           </div>
           <p className='sr-hidden' id='p_password'>Password cannot be empty</p>
-          <button className='submit' type='submit' onClick={trialSubmit}>Claim your free trial</button>
+          <button className='submit' type='submit' onClick={validateForm}>Claim your free trial</button>
           <p className="p_terms">By clicking the button, you are agreeing to our <span className="span_terms">Terms and Services</span></p>
         </form>
       </div>
