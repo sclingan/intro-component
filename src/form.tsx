@@ -1,5 +1,6 @@
 import error from '../public/images/icon-error.svg'
 import submitTrial from './submit'
+
 function Form() {
  
     return (

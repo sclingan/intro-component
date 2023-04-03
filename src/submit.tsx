@@ -1,6 +1,5 @@
 
-
-export default function submitTrial(e : React.ChangeEvent<HTMLElement>) {
+export default function submitTrial(e : React.MouseEvent<HTMLElement>)  {
     e.preventDefault();
     const fname : HTMLInputElement | null = document.querySelector<HTMLInputElement>('input[id="first_name"]');
     const lname : HTMLInputElement | null = document.querySelector<HTMLInputElement>('input[id="last_name"]');
