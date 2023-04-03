@@ -42,7 +42,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* TODO:
-    fix button/div issue, can't have active states on a div
 */
 body {
   background-image: url("../public/images/bg-intro-mobile.png");
@@ -74,21 +73,20 @@ p {
   padding-block: 1.5rem;
 }
 
-.button {
-  text-align: center;
-  color: hsl(0, 14%, 95%);
-  background-color: hsl(248, 32%, 49%);
-  border-radius: 0.5rem;
-  padding: 1rem 3rem;
-  box-shadow: 0 0.5rem 0.3rem red;
+.div_button {
   margin-block: 2rem;
-  cursor: pointer;
 }
 
 .btn_trial {
+  display: block;
   text-decoration: none;
   color: hsl(246, 25%, 77%);
+  background-color: hsl(248, 32%, 49%);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
   text-align: center;
+  box-shadow: 0 0.5rem 0.3rem red;
+  cursor: pointer;
 }
 
 .btn_trial_try {
@@ -96,7 +94,7 @@ p {
   color: hsl(0, 14%, 95%);
 }
 
-.button:hover {
+.btn_trial:hover {
   background-color: hsl(249, 58%, 55%);
 }
 

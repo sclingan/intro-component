@@ -54,6 +54,7 @@ export default function submitTrial(e : React.ChangeEvent<HTMLElement>) {
             }
         
         }) 
+     // If no errors and email is valid submit
      
      if(passed === -3 && answer) {
         console.log('submit');

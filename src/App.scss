@@ -15,7 +15,6 @@ $fw-700: 700;
 
 
 /* TODO:
-    fix button/div issue, can't have active states on a div
 */
 
 body {
@@ -48,21 +47,20 @@ p {
     padding-block: 1.5rem;
 }
 
-.button {
-    text-align: center;
-    color: $neutral-white;
-    background-color: $accent-blue;
-    border-radius: 0.5rem;
-    padding: 1rem 3rem;
-    box-shadow: 0 0.5rem 0.3rem red;
+.div_button {
     margin-block: 2rem;
-    cursor: pointer;
 }
 
 .btn_trial {
+    display: block;
     text-decoration: none;
     color: $neutral-gray-blue;
+    background-color: $accent-blue;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
     text-align: center;
+    box-shadow: 0 0.5rem 0.3rem red;
+    cursor: pointer;
 }
 
 .btn_trial_try {
@@ -70,8 +68,8 @@ p {
     color: $neutral-white;
 }
 
-.button:hover {
-    background-color: hsl(249, 58%, 55%);;
+.btn_trial:hover {
+    background-color: hsl(249, 58%, 55%);
 }
 
 form {
