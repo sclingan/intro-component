@@ -56,18 +56,22 @@ Users should be able to:
 
 ### What I learned
 
+I learned a lot on this project, form submission and typescript especially. First time really using typescript,
+I had a rough time trying to figure out how to use correct
+types in typescript and still accomplish my goal.
 
 
 
 
 ### Continued development
 
-
+I would like to return to this project and make the backend part of the project. Use React router to render the trial details page, plus a shopping cart page to keep track of the 
+order.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- (https://validator.w3.org/) - Test and validate your HTML!
+- (https://developer.mozilla.org/en-US/) - This site helped me learn about form validation using typescript and HTML elements in typescript.
 
 
 ## Author
@@ -77,5 +81,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you to Frontend Mentor for another great challenge.
