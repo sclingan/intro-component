@@ -1,5 +1,3 @@
-import trialSubmit from './submit'
-import validateForm from './submit'
 import error from '../public/images/icon-error.svg'
 import submitTrial from './submit'
 function Form() {
