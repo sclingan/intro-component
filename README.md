@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/frontend-mentor-intro-component-challenge-DVphmZVaDq)
 - Live Site URL: (https://sclingan.github.io/intro-component)
 
 ## My process
