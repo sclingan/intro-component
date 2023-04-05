@@ -14,8 +14,6 @@ $fw-600: 600;
 $fw-700: 700;
 
 
-/* TODO:
-*/
 
 body {
     background-image: url('../public/images/bg-intro-mobile.png');
@@ -77,11 +75,12 @@ form {
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 0.3rem red;
+    overflow: hidden;
 }
 
 input {
     padding: 1rem 0.5rem;
-    // min-width: 100%;
+    max-width: 80%;
     border: 0.1px solid lightgray;
     border-radius: 0.4rem;
     margin-block: 1rem;
