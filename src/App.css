@@ -98,8 +98,7 @@ p {
 
 form {
   padding: 1rem 1.5rem;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
+  min-width: 80%;
   background-color: white;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 0.3rem red;
