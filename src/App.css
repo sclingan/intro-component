@@ -41,8 +41,6 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-/* TODO:
-*/
 body {
   background-image: url("../public/images/bg-intro-mobile.png");
   background-color: hsl(0, 100%, 74%);
@@ -99,14 +97,17 @@ p {
 }
 
 form {
+  position: relative;
   padding: 1rem 1.5rem;
   background-color: white;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 0.3rem red;
+  overflow: hidden;
 }
 
 input {
   padding: 1rem 0.5rem;
+  max-width: 80%;
   border: 0.1px solid lightgray;
   border-radius: 0.4rem;
   margin-block: 1rem;
