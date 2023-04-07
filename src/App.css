@@ -98,7 +98,6 @@ p {
 
 form {
   padding: 1rem 1.5rem;
-  min-width: 80%;
   background-color: white;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 0.3rem red;
@@ -106,7 +105,7 @@ form {
 
 input {
   padding: 1rem 0.5rem;
-  min-width: 80%;
+  min-width: 100%;
   border: 0.1px solid lightgray;
   border-radius: 0.4rem;
   margin-block: 1rem;
@@ -116,6 +115,7 @@ input {
 
 .input_wrapper {
   position: relative;
+  overflow: scroll;
 }
 
 .sr-hidden {
