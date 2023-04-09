@@ -90,6 +90,7 @@ input {
 .input_wrapper {
     display: flex;
     flex: 1;
+    position: relative;
     overflow: scroll;
 }
 
