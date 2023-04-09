@@ -97,6 +97,8 @@ p {
 }
 
 form {
+  display: flex;
+  flex: 1;
   padding: 1rem 1.5rem;
   background-color: white;
   border-radius: 0.5rem;
